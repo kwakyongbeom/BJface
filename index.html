@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <script data-ad-client="ca-pub-1966800224526203" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta name="description" content="조코딩님 동물상 테스트를 기반으로 작성된 나와 닮은 BJ찾기 사이트 입니다">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,12 +16,11 @@
     <meta name="keywords" content="동물상 테스트, 인공지능 동물상 테스트, 얼굴상, 얼굴상 테스트, 나와 닮은 동물, 동물상 찾기, 얼굴로 보는 동물상, 얼굴 동물, 동물얼굴, animalface, 강아지상, 고양이상, 여우상, 사슴상, 토끼상, 곰상, 공룡상, 인공지능 동물상, AI 얼굴상, AI 동물상">
     <meta name="author" content="조코딩">
     <link rel="stylesheet" href="style.css">
-    <link rel="canonical" href="https://bjface.netlify.app" />
-    <meta property="og:url" content="https://bjface.netlify.app" />
+    <link rel="canonical" href="https://afreecabjface.netlify.app" />
+    <meta property="og:url" content="https://afreecabjface.netlify.app" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="나와 닮은 BJ찾기 " />
-    <meta property="og:description" content="얼굴로 보는 인공지능 나와 닮은 유명 BJ들을 찾아보세요!"
-    />
+    <meta property="og:description" content="얼굴로 보는 인공지능 나와 닮은 유명 BJ들을 찾아보세요!" />
     <meta property="og:image" content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fc0eq42%2FbtqCQpiFhFn%2F8KPaOP9q8PXpJFRL7if55K%2Fimg.jpg" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -30,14 +29,14 @@
 
 <body>
     <nav class="p-3 container navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="https://bjface.netlify.app/">나와 닮은 BJ찾기 </a>
+        <a class="navbar-brand" href="https://afreecabjface.netlify.app/">나와 닮은 BJ찾기 </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://bjface.netlify.app/">나와 닮은 BJ 찾기 
+                    <a class="nav-link" href="https://afreecabjface.netlify.app/">나와 닮은 BJ 찾기
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -51,9 +50,9 @@
         <h1 class="title">나와 닮은 BJ 찾기</h1>
         <h2 class="subtitle">얼굴로 보는 인공지능 BJ 찾기</h2>
         <h2 class="sr-only">나는 어떤 BJ와 닮았을까? 나의 닮은 BJ 찾기를 해보세요!</h2>
-        
+
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
-        
+
     </section>
     <section class="youtube pb-3" id="yotube-mid-link">
         <div class="container mt-3 youtube-cover d-flex flex-row-reverse align-items-center">
@@ -91,7 +90,7 @@
                 </div>
                 <p class="text-center">AI가 당신과 닮은 BJ를 분석중입니다.</p>
             </div>
-      
+
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
             <div id="addThis" class="addthis_inline_share_toolbox_6lz1"></div>
 
@@ -100,6 +99,14 @@
                     <span class="try-again-text">다른 사진으로 재시도</span>
                 </button>
             </div>
+        </div>
+    </div>
+    <div id="add_container" class>
+        <div id="coopang" class="ad-banner container">
+            <a href="https://coupa.ng/bD1KUZ" target="_blank">
+                <img src="https://ads-partners.coupang.com/banners/255389?subId=&traceId=V0-301-879dd1202e5c73b2-I255389&w=320&h=100" alt="">
+            </a>
+            <!-- coopang ad -->
         </div>
     </div>
     <footer class="footer pt-5 container d-flex justify-content-center">
@@ -142,11 +149,11 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
         let URL;
         const urlMale = "https://teachablemachine.withgoogle.com/models/Iwl0PWnUO/";
-        const urlFemale = "https://teachablemachine.withgoogle.com/models/W17uEUX0C/";  
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/W17uEUX0C/";
         let model, webcam, labelContainer, maxPredictions;
         async function init() {
             if (document.getElementById("gender").checked) {
@@ -170,10 +177,8 @@
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
             console.log(prediction[0].className);
-           
-         
             var barWidth;
-            maxPredictions=6;
+            maxPredictions = 6;
             for (let i = 0; i < maxPredictions; i++) {
                 if (prediction[i].probability.toFixed(2) > 0.1) {
                     barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
@@ -182,17 +187,15 @@
                 } else {
                     barWidth = "2%"
                 }
-                
-                var labelTitle=prediction[i].className;
-                
+                var labelTitle = prediction[i].className;
                 var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
-                labelContainer.childNodes[i].innerHTML =  label+bar;
+                labelContainer.childNodes[i].innerHTML = label + bar;
             }
         }
     </script>
-   
-<!-- 
+
+    <!-- 
 image input box
 Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 
