@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Siteamp:https://afreecatvbjface.netlify.app/sitemap.xml

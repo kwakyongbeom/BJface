@@ -476,4 +476,8 @@ input:checked + label > .knob > i:before {
     margin: 0 auto;
 }
 
-
+.side-bar-ad{
+    position:relative;
+    left;
+    
+}
