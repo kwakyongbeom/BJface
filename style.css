@@ -472,8 +472,18 @@ input:checked + label > .knob > i:before {
 }
 
 .ad-banner {
-    width: 320px;
+    width: 90%;
     margin: 0 auto;
+}
+
+.left-ad.banner{
+      width: 300px;
+      float: left;
+}
+
+.right-ad-banner{
+     width: 300px;
+     float: right;
 }
 
 .side-bar-ad{
@@ -481,3 +491,12 @@ input:checked + label > .knob > i:before {
     left;
     
 }
+.ad_container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.copy-right{
+    text-align:center;
+}
+
